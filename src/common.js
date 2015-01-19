@@ -8,6 +8,9 @@ var g = window.g || {};
 	//プラットフォーム判定 
 	if (cc.TARGET_PLATFORM == undefined) {
 		cc.TARGET_PLATFORM = { // cocos2d/platform/CCApplication.jsからコピー
+				WINDOWS: 0,
+				LINUX: 1,
+				MAC: 2,
 				ANDROID:3,
 				IPHONE:4,
 				IPAD:5,
